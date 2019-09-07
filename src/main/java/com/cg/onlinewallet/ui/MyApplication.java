@@ -44,7 +44,7 @@ public class MyApplication {
 			BigInteger phoneNo = sc.nextBigInteger();
 			userOne = new User(id,name,password,address,phoneNo);
 			service.addUser(userOne);
-			hm = service.showUser();
+			hm = service.showUser();// to show the details of a user
 			break;
 		
 		case 2:
