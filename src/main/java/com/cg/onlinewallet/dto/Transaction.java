@@ -3,19 +3,19 @@ package com.cg.onlinewallet.dto;
 import java.math.BigInteger;
 import java.util.Date;
 
-public class Transactions {
+public class Transaction {
 	
-	String description;
-	BigInteger txId;
-	Date dateOfTx;
-	Double amount;
-	Double balance;
+	private String description;
+	private BigInteger txId;
+	private Date dateOfTx;
+	private Double amount;
+	private Double balance;
 	
-	Transactions(){
+	Transaction(){
 		
 	}
 
-	public Transactions(String description, BigInteger txId, Date dateOfTx, Double amount, Double balance) {
+	public Transaction(String description, BigInteger txId, Date dateOfTx, Double amount, Double balance) {
 		super();
 		this.description = description;
 		this.txId = txId;
@@ -84,7 +84,7 @@ public class Transactions {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Transactions other = (Transactions) obj;
+		Transaction other = (Transaction) obj;
 		if (amount == null) {
 			if (other.amount != null)
 				return false;

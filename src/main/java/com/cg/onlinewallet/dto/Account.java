@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Account {
 	
-	BigInteger accountNo;
-	Double balance;
-	List<Transactions> transactionList;
+	private BigInteger accountNo;
+	private Double balance;
+	private List<Transactions> transactionList;
 	
 	public Account() {
 		
