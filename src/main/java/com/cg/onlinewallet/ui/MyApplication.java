@@ -2,10 +2,14 @@ package com.cg.onlinewallet.ui;
 
 import java.math.BigInteger;
 import java.util.HashMap;
-
+import java.util.Map;
 import java.util.Scanner;
 
+import com.cg.onlinewallet.dto.Account;
+import com.cg.onlinewallet.dto.Transaction;
 import com.cg.onlinewallet.dto.User;
+import com.cg.onlinewallet.service.AccountService;
+import com.cg.onlinewallet.service.AccountServiceImpl;
 import com.cg.onlinewallet.service.UserService;
 import com.cg.onlinewallet.service.UserServiceImpl;
 
@@ -18,13 +22,15 @@ public class MyApplication {
 	Scanner sc = new Scanner(System.in);
 	
 	UserService service = new UserServiceImpl();
+	AccountService accService = new AccountServiceImpl();
 	
-	User userOne;
+	HashMap<BigInteger, User<Account>> hm = new HashMap<BigInteger, User<Account>>();
 	
-	HashMap<BigInteger, User> hm = null;
+	User<Account> user = new User<Account>();
 	
-	int choice;
-		
+	//HashMap<BigInteger, User<A>> hm = null;
+	
+	int choice;		
 	
 	do {
 		System.out.println("Enter choice");
@@ -42,8 +48,14 @@ public class MyApplication {
 			String address = sc.next();
 			System.out.println("Enter Phone Number");
 			BigInteger phoneNo = sc.nextBigInteger();
-			userOne = new User(id,name,password,address,phoneNo);
-			service.addUser(userOne);
+			System.out.println("Enter Account Number");
+			BigInteger accNo  = sc.nextBigInteger();
+			
+			Account account = new Account();
+			
+			service.addUser(user);
+			//userOne = new User(id,name,password,address,phoneNo);
+			//service.addUser(userOne);
 			hm = service.showUser();// to show the details of a user
 			break;
 		
@@ -56,8 +68,8 @@ public class MyApplication {
 		case 3:
 			System.out.println("Enter the user id you want to search");
 			id = sc.nextBigInteger();
-		    User u =  service.searchUser(id);
-			System.out.println(u);
+		    service.searchUser(id);
+			System.out.println(user);
 			break;
 			
 		}

@@ -5,19 +5,19 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-
+import com.cg.onlinewallet.dto.Account;
 import com.cg.onlinewallet.dto.User;
 
 public class UserDaoImpl implements UserDao {
 	
-	HashMap<BigInteger, User> hm = new HashMap<BigInteger, User>();
+	HashMap<BigInteger, User<Account>> hm = new HashMap<BigInteger, User<Account>>();
 
-	public User addUser(User u) {
+	public User<Account> addUser(User<Account> u) {
 		hm.put(u.getUserId(), u);
 		return u;
 	}
 
-	public  HashMap<BigInteger, User> showUser() {
+	public  HashMap<BigInteger, User<Account>> showUser() {
 		return hm;
 	}
 
@@ -28,7 +28,7 @@ public class UserDaoImpl implements UserDao {
 			return false;
 	}
 
-	public User searchUser(BigInteger id) {
+	public User<Account> searchUser(BigInteger id) {
 		return hm.get(id);
 	}
 

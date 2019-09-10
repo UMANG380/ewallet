@@ -2,30 +2,29 @@ package com.cg.onlinewallet.dto;
 
 import java.math.BigInteger;
 
-public class User {
+public class User<T> {
 	
 	BigInteger userId;
 	String userName;
 	String userPassword;
-	Double loyaltyBonus;
+	static Double loyaltyBonus= 0.0;
 	BigInteger phoneNo;
-	Account acc;
+	T acc;
 	String role;
 	
 	public User() {
 		
 	}
 
-	public User(BigInteger userId, String userName, String userPassword, Double loyaltyBonus, BigInteger phoneNo,
-			Account acc, String role) {
+	public User(BigInteger userId, String userName, String userPassword, BigInteger phoneNo,
+			T acc) {
 		super();
 		this.userId = userId;
 		this.userName = userName;
 		this.userPassword = userPassword;
-		this.loyaltyBonus = loyaltyBonus;
 		this.phoneNo = phoneNo;
 		this.acc = acc;
-		this.role = role;
+		//this.role = role;
 	}
 
 	
@@ -62,14 +61,7 @@ public class User {
 		this.userPassword = userPassword;
 	}
 
-	public Double getLoyaltyBonus() {
-		return loyaltyBonus;
-	}
-
-	public void setLoyaltyBonus(Double loyaltyBonus) {
-		this.loyaltyBonus = loyaltyBonus;
-	}
-
+	
 	public BigInteger getPhoneNo() {
 		return phoneNo;
 	}
@@ -78,11 +70,11 @@ public class User {
 		this.phoneNo = phoneNo;
 	}
 
-	public Account getAcc() {
+	public T getAcc() {
 		return acc;
 	}
 
-	public void setAcc(Account acc) {
+	public void setAcc(T acc) {
 		this.acc = acc;
 	}
 
@@ -98,7 +90,6 @@ public class User {
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
-		result = prime * result + ((loyaltyBonus == null) ? 0 : loyaltyBonus.hashCode());
 		result = prime * result + ((phoneNo == null) ? 0 : phoneNo.hashCode());
 		result = prime * result + ((role == null) ? 0 : role.hashCode());
 		result = prime * result + ((userId == null) ? 0 : userId.hashCode());
@@ -115,12 +106,9 @@ public class User {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		User other = (User) obj;
-		if (loyaltyBonus == null) {
-			if (other.loyaltyBonus != null)
-				return false;
-		} else if (!loyaltyBonus.equals(other.loyaltyBonus))
-			return false;
+		@SuppressWarnings("unchecked")
+		User<Account> other = (User<Account>) obj;
+		
 		if (phoneNo == null) {
 			if (other.phoneNo != null)
 				return false;

@@ -6,7 +6,7 @@ import java.util.List;
 public class Account {
 	
 	private BigInteger accountNo;
-	private Double balance;
+	private Double balance=0.0;
 	private List<Transaction> transactionList;
 	
 	public Account() {
@@ -18,6 +18,11 @@ public class Account {
 		this.accountNo = accountNo;
 		this.balance = balance;
 		this.transactionList = transactionList;
+	}
+	public Account(BigInteger accountNo) {
+		super();
+		this.accountNo = accountNo;
+		
 	}
 
 	public BigInteger getAccountNo() {
