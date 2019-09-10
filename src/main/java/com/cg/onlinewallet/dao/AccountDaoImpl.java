@@ -1,25 +1,42 @@
 package com.cg.onlinewallet.dao;
 
 import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 import com.cg.onlinewallet.dto.Account;
+import com.cg.onlinewallet.dto.Transaction;
 import com.cg.onlinewallet.dto.User;
 
 public class AccountDaoImpl implements AccountDao {
-
-	public User addBankAccount(Account acc) {
+	HashMap<BigInteger, Account> hm2 = new HashMap<BigInteger, Account>();
+	
+	public Account addBankAccount(Account acc) {
 		// TODO Auto-generated method stub
-		return null;
+		hm2.put(acc.getAccountNo(), acc);
+		return acc;
+		
 	}
+	
 
 	public Boolean deleteBankAccount(Account acc) {
 		// TODO Auto-generated method stub
-		return null;
+		if(hm2.remove(acc)!=null)
+			return true;
+		else
+			return false;
+		
 	}
 
-	public Account showBankAccount(BigInteger id, String password) {
+	public HashMap<BigInteger,Account> showBankAccount() {
 		// TODO Auto-generated method stub
-		return null;
+		return hm2;
 	}
+	/*public Transaction addTransaction(Transaction t) {
+		// TODO Auto-generated method stub
+		transactionList1.add(t);
+		return null;
+	}*/
 
 }

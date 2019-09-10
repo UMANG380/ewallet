@@ -7,13 +7,13 @@ public class Account {
 	
 	private BigInteger accountNo;
 	private Double balance;
-	private List<Transactions> transactionList;
+	private List<Transaction> transactionList;
 	
 	public Account() {
 		
 	}
 
-	public Account(BigInteger accountNo, Double balance, List<Transactions> transactionList) {
+	public Account(BigInteger accountNo, Double balance, List<Transaction> transactionList) {
 		super();
 		this.accountNo = accountNo;
 		this.balance = balance;
@@ -36,11 +36,11 @@ public class Account {
 		this.balance = balance;
 	}
 
-	public List<Transactions> getTransactionList() {
+	public List<Transaction> getTransactionList() {
 		return transactionList;
 	}
 
-	public void setTransactionList(List<Transactions> transactionList) {
+	public void setTransactionList(List<Transaction> transactionList) {
 		this.transactionList = transactionList;
 	}
 
