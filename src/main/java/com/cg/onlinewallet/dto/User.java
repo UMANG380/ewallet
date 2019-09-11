@@ -10,7 +10,7 @@ public class User<T> {
 	static Double loyaltyBonus= 0.0;
 	BigInteger phoneNo;
 	T acc;
-	String role;
+	
 	
 	public User() {
 		
@@ -24,7 +24,7 @@ public class User<T> {
 		this.userPassword = userPassword;
 		this.phoneNo = phoneNo;
 		this.acc = acc;
-		//this.role = role;
+		
 	}
 
 	
@@ -78,20 +78,14 @@ public class User<T> {
 		this.acc = acc;
 	}
 
-	public String getRole() {
-		return role;
-	}
-
-	public void setRole(String role) {
-		this.role = role;
-	}
+	
 
 	@Override
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result + ((phoneNo == null) ? 0 : phoneNo.hashCode());
-		result = prime * result + ((role == null) ? 0 : role.hashCode());
+		
 		result = prime * result + ((userId == null) ? 0 : userId.hashCode());
 		result = prime * result + ((userName == null) ? 0 : userName.hashCode());
 		result = prime * result + ((userPassword == null) ? 0 : userPassword.hashCode());
@@ -114,11 +108,7 @@ public class User<T> {
 				return false;
 		} else if (!phoneNo.equals(other.phoneNo))
 			return false;
-		if (role == null) {
-			if (other.role != null)
-				return false;
-		} else if (!role.equals(other.role))
-			return false;
+		
 		if (userId == null) {
 			if (other.userId != null)
 				return false;
@@ -140,7 +130,7 @@ public class User<T> {
 	@Override
 	public String toString() {
 		return "User [userId=" + userId + ", userName=" + userName + ", userPassword=" + userPassword
-				+ ", loyaltyBonus=" + loyaltyBonus + ", phoneNo=" + phoneNo + ", acc=" + acc + ", role=" + role + "]";
+				+ ", loyaltyBonus=" + loyaltyBonus + ", phoneNo=" + phoneNo + ", acc=" + acc + "]";
 	}
 	
 	

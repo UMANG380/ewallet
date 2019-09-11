@@ -22,10 +22,9 @@ public class UserDaoImpl implements UserDao {
 	}
 
 	public boolean deleteUser(BigInteger id) {
-		if(hm.remove(id)!=null)
+		hm.remove(id);
 			return true;
-		else
-			return false;
+	
 	}
 
 	public User<Account> searchUser(BigInteger id) {

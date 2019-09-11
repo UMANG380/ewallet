@@ -19,8 +19,7 @@ public class UserServiceImpl implements UserService {
 	}
 
 	public HashMap<BigInteger, User<Account>> showUser() {
-		Map<BigInteger, User<Account>> map = dao.showUser();
-		List<User<Account>> list = newArrayList<User<Account>();
+		
 		
 		
 		
@@ -32,7 +31,7 @@ public class UserServiceImpl implements UserService {
 	}
 
 	public User<Account> searchUser(BigInteger id) {
-		List<User<Account>> list = showUser();
+	
 		return dao.searchUser(id);
 		
 	}

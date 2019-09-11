@@ -1,9 +1,14 @@
 package com.cg.onlinewallet.ui;
 
+import java.math.BigDecimal;
 import java.math.BigInteger;
+import java.util.Date;
 import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+
 
 import com.cg.onlinewallet.dto.Account;
 import com.cg.onlinewallet.dto.Transaction;
@@ -20,14 +25,14 @@ public class MyApplication {
 
 	
 	Scanner sc = new Scanner(System.in);
-	
+	Account account = new Account();
+
 	UserService service = new UserServiceImpl();
 	AccountService accService = new AccountServiceImpl();
 	
-	HashMap<BigInteger, User<Account>> hm = new HashMap<BigInteger, User<Account>>();
+	HashMap<BigInteger, User<Account>> hm = null;
 	
 	User<Account> user = new User<Account>();
-	
 	//HashMap<BigInteger, User<A>> hm = null;
 	
 	int choice;		
@@ -40,30 +45,43 @@ public class MyApplication {
 		case 1:
 			System.out.println("Enter id");
 			BigInteger id = sc.nextBigInteger();
+
 			System.out.println("Enter Name");
 			String name = sc.next();
 			System.out.println("Enter Password");
 			String password = sc.next();
-			System.out.println("Enter Address");
-			String address = sc.next();
+			
 			System.out.println("Enter Phone Number");
 			BigInteger phoneNo = sc.nextBigInteger();
 			System.out.println("Enter Account Number");
 			BigInteger accNo  = sc.nextBigInteger();
+			account.setAccountNo(accNo);
+			account.setBalance(1000.0);
+			Transaction tranOne=new Transaction("Account created",new BigInteger("10001"),new Date(),0.0,1000.0);
+			Transaction traTwo=new Transaction("Purchased Book",new BigInteger("10002"),new Date(),100.0,900.0);
+			Transaction tranThree=new Transaction("Purchased Pizza",new BigInteger("10003"),new Date(),300.0,600.0);
+			List<Transaction> myAll=new LinkedList<Transaction>();
+			myAll.add(tranOne);
+			myAll.add(traTwo);
+			myAll.add(tranThree);
+			account.setBalance(600.0);
+			account.setTransactionList(myAll);
+			user.setUserId(id);
+			user.setUserName(name);
+			user.setUserPassword(password);
 			
-			Account account = new Account();
+			user.setPhoneNo(phoneNo);
+			user.setAcc(account);
 			
 			service.addUser(user);
-			//userOne = new User(id,name,password,address,phoneNo);
-			//service.addUser(userOne);
-			hm = service.showUser();// to show the details of a user
+			hm = service.showUser();
 			break;
 		
 		case 2:
 			System.out.println("Enter the User id you want to delete");
 			BigInteger uid = sc.nextBigInteger();
-			 boolean status = service.deleteUser(uid);
-			System.out.println("The employee detalis has been deleted");
+			service.deleteUser(uid);
+			System.out.println("The user detalis has been deleted");
 			break;
 		case 3:
 			System.out.println("Enter the user id you want to search");
