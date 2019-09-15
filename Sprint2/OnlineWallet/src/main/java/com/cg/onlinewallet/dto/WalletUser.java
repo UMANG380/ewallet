@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Objects;
 
 public class WalletUser {
-	private final BigInteger userId;
+	private BigInteger userId;
 	private String userName;
 	private String userPassword;
 	private static int count=0;
@@ -32,10 +32,18 @@ public class WalletUser {
 		this.phoneNo = phoneNo;
 		this.account = account;
 	}
+	
+	public WalletUser() {
+		
+	}
 
 
 	public BigInteger getUserId() {
 		return userId;
+	}
+	
+	public void setUserId(BigInteger userId) {
+		this.userId=userId;
 	}
 	
 	public String getUserName() {

@@ -20,7 +20,7 @@ public class MyApplication {
 	    WalletUserService userService = new WalletUserServiceImpl();
 
 		WalletUser user1 = new WalletUser("Venkatesh","abcd","9951800546",new WalletAccount());
-		WalletUser user2= new WalletUser("sutya","abcd","9003432137",new WalletAccount());
+		WalletUser user2= new WalletUser("Utkarsh","abcd","9003432137",new WalletAccount());
 
 		try {
 			userService.addWalletUser(user1);

@@ -1,21 +1,51 @@
 package com.cg.onlinewallet.dao;
 
+import com.cg.onlinewallet.exception.MyException;
+import com.cg.onlinewallet.util.DBUtil;
 import com.cg.onlinewallet.dto.Status;
 import com.cg.onlinewallet.dto.Transaction;
 import com.cg.onlinewallet.dto.WalletAccount;
 
 import java.math.BigInteger;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 //import static com.cg.onlinewallet.dto.Status.WaitingForApproval;
 
 public class WalletAccountDaoImpl implements WalletAccountDao {
 	
 	private static Map<BigInteger,WalletAccount> accounts = new HashMap<BigInteger, WalletAccount>();
+	private static Connection connection;
+	private PreparedStatement ps;
+	private ResultSet rs;
+	private static Logger myLogger;
+	static{
+    	
+  	  Properties props = System.getProperties();
+  	  String userDir= props.getProperty("user.dir")+"/src/main/resources/";
+  	  System.out.println("Current working directory is " +userDir);
+  	  PropertyConfigurator.configure(userDir+"log4j.properties");
+		myLogger=Logger.getLogger("DBUtil.class");
+		}
+	
+	static {
+		try {
+			connection= DBUtil.getConnection();
+		} catch (MyException e) {
+			myLogger.error("Connection not obtained at EmployeeDao : e");
+			//System.out.print("Connection Not Obtained at EmployeeDao");
+		}
+	}
 
 	public WalletAccount addAccount(WalletAccount account) {
 
