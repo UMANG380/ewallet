@@ -1,23 +1,22 @@
 package com.cg.onlinewallet.dto;
 
 import java.math.BigInteger;
+import java.util.ArrayList;
 import java.util.List;
 
 public class WalletAccount {
 	private final BigInteger accountNo;
-	private Double balance=0.0;
+	private Double balance = 0.0;
 	private List<Transaction> transactionList;
 	private Status accountStatus;
-	private static int count=0;
-	/**
-	 * 
-	 */
-	
-	/**
-	 * @param accountNo
-	 * @param balance
-	 * @param transactionList
-	 */
+	private static int count = 0;
+
+	public WalletAccount(){
+	    this.accountNo=BigInteger.valueOf(++count);
+	    this.balance=0.0;
+	    this.transactionList=new ArrayList<>();
+	    this.accountStatus=Status.WatingForApproval;
+    }
 	public WalletAccount(Double balance, List<Transaction> transactionList, Status status) {
 		super();
 		this.accountNo = BigInteger.valueOf(++count);
@@ -25,38 +24,44 @@ public class WalletAccount {
 		this.transactionList = transactionList;
 		this.accountStatus = status;
 	}
-	
+
 	public BigInteger getAccountNo() {
 		return accountNo;
 	}
-	
+
 	public Double getBalance() {
 		return balance;
 	}
+
 	public void setBalance(Double balance) {
 		this.balance = balance;
 	}
+
 	public List<Transaction> getTransactionList() {
 		return transactionList;
 	}
+
 	public void setTransactionList(List<Transaction> transactionList) {
 		this.transactionList = transactionList;
 	}
+
 	public Status getAccountStatus() {
 		return accountStatus;
 	}
+
 	public void setAccountStatus(Status accountStatus) {
 		this.accountStatus = accountStatus;
 	}
-	
+
 
 	public static int getCount() {
 		return count;
 	}
+
 	public static void setCount(int count) {
 		WalletAccount.count = count;
 	}
-	
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -67,6 +72,7 @@ public class WalletAccount {
 		result = prime * result + ((transactionList == null) ? 0 : transactionList.hashCode());
 		return result;
 	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -95,15 +101,10 @@ public class WalletAccount {
 			return false;
 		return true;
 	}
+
 	@Override
 	public String toString() {
 		return "WalletAccount [accountNo=" + accountNo + ", balance=" + balance + ", transactionList=" + transactionList
 				+ ", accountStatus=" + accountStatus + "]";
 	}
-	
-
-}
-
-enum Status{
-	Approved,Rejected,WaitingForApproval;
 }

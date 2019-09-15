@@ -1,6 +1,7 @@
 package com.cg.onlinewallet.dto;
 
 import java.math.BigInteger;
+import java.util.Objects;
 
 public class WalletUser {
 	private final BigInteger userId;
@@ -9,20 +10,20 @@ public class WalletUser {
 	private static int count=0;
 	
 	
-	BigInteger phoneNo;
+	String phoneNo;
 	WalletAccount account;
 	
 	/**
 	 * 
 	 */
 	/**
-	 * @param userId
+	 * @param
 	 * @param userName
 	 * @param userPassword
 	 * @param phoneNo
 	 * @param account
 	 */
-	public WalletUser(String userName, String userPassword, BigInteger phoneNo,
+	public WalletUser(String userName, String userPassword, String phoneNo,
 			WalletAccount account) {
 		super();
 		this.userId = BigInteger.valueOf(++count);
@@ -50,10 +51,10 @@ public class WalletUser {
 		this.userPassword = userPassword;
 	}
 	
-	public BigInteger getPhoneNo() {
+	public String getPhoneNo() {
 		return phoneNo;
 	}
-	public void setPhoneNo(BigInteger phoneNo) {
+	public void setPhoneNo(String phoneNo) {
 		this.phoneNo = phoneNo;
 	}
 	public WalletAccount getAccount() {
@@ -72,57 +73,18 @@ public class WalletUser {
 		WalletUser.count = count;
 	}
 
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (!(o instanceof WalletUser)) return false;
+		WalletUser user = (WalletUser) o;
+		return getPhoneNo().equals(user.getPhoneNo());
+	}
 
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((account == null) ? 0 : account.hashCode());
-		result = prime * result + ((phoneNo == null) ? 0 : phoneNo.hashCode());
-		result = prime * result + ((userId == null) ? 0 : userId.hashCode());
-		result = prime * result + ((userName == null) ? 0 : userName.hashCode());
-		result = prime * result + ((userPassword == null) ? 0 : userPassword.hashCode());
-		return result;
+		return Objects.hash(getPhoneNo());
 	}
-
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		WalletUser other = (WalletUser) obj;
-		if (account == null) {
-			if (other.account != null)
-				return false;
-		} else if (!account.equals(other.account))
-			return false;
-		if (phoneNo == null) {
-			if (other.phoneNo != null)
-				return false;
-		} else if (!phoneNo.equals(other.phoneNo))
-			return false;
-		if (userId == null) {
-			if (other.userId != null)
-				return false;
-		} else if (!userId.equals(other.userId))
-			return false;
-		if (userName == null) {
-			if (other.userName != null)
-				return false;
-		} else if (!userName.equals(other.userName))
-			return false;
-		if (userPassword == null) {
-			if (other.userPassword != null)
-				return false;
-		} else if (!userPassword.equals(other.userPassword))
-			return false;
-		return true;
-	}
-
 
 	@Override
 	public String toString() {
