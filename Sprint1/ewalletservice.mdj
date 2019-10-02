@@ -1,0 +1,2608 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAFtAKylh79/WkI=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFtAKyli7+ABYs=",
+									"_parent": {
+										"$ref": "AAAAAAFtAKylh79/WkI="
+									},
+									"model": {
+										"$ref": "AAAAAAFtAKylg799ejY="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFtAKyli7+B2M4=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+ABYs="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 512,
+											"top": 672,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFtAKyli7+CUfw=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+ABYs="
+											},
+											"font": "Arial;13;1",
+											"left": 285,
+											"top": 439,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "WalletUserServiceImpl"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFtAKyli7+DwW8=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+ABYs="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 512,
+											"top": 672,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFtAKyli7+Ea8I=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+ABYs="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 512,
+											"top": 672,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 280,
+									"top": 432,
+									"width": 672.4541015625,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFtAKyli7+B2M4="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFtAKyli7+CUfw="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFtAKyli7+DwW8="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFtAKyli7+Ea8I="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFtAKyli7+FiaQ=",
+									"_parent": {
+										"$ref": "AAAAAAFtAKylh79/WkI="
+									},
+									"model": {
+										"$ref": "AAAAAAFtAKylg799ejY="
+									},
+									"font": "Arial;13;0",
+									"left": 280,
+									"top": 457,
+									"width": 672.4541015625,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFtAKyli7+G+lo=",
+									"_parent": {
+										"$ref": "AAAAAAFtAKylh79/WkI="
+									},
+									"model": {
+										"$ref": "AAAAAAFtAKylg799ejY="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtALiSasOZRsU=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtALiSJsOWOCA="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 472,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+addWalletUser(user: WalletUser): WalletUser",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtALjKpsOk4Xw=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtALjKZsOhDhI="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 487,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+addAmout(userId: Integer, amount: Double): Double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtAMOAyMU2SxU=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtAMOAiMUzEKw="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 502,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+transferAmount(fromUserId: Integer, phoneNumber: String, amount: Double): Double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNjpJGy/3Ss=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNjo1my8GZQ="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 517,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+transferAmount(fromUserId: Integer, accountNo: Integer, amount: Double): Double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNlID20d3Ns=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNlH5m0a1ic="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 532,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+checkbalance(userId: Integer): Double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNlWD206QJU=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNlVwW03Pcc="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 547,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+getAllUsers(): List<WalletUser>",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNl5VW1eoZM=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNl5C21bI4Y="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 562,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+getUser(userId: Integer): WalletUser",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNmkgm2HTK4=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNmkMW2Eid8="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 577,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+getAccountsToApprove(): List<WalletAccount>",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNn5+W2rRRw=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNn5322oax0="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 592,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+approveAccount(accountId: Integer): List<WalletAccount>",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNocCW3Ua5c=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNobs23R6d4="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 607,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+getAccount(accountNo: Integer): WalletAccount",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNpVkm4VEVo=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNpVX24SaYI="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 622,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+getTransactions(accountNo: Integer, fromDate: LocalDateTime, toDate: LocalDateTime): List<TransactionHistory>",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNpkkW480u0=",
+											"_parent": {
+												"$ref": "AAAAAAFtAKyli7+G+lo="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNpkRm45ifs="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 637,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+validateLoginCredentials(userId: Integer, password: String): Boolean",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 280,
+									"top": 467,
+									"width": 672.4541015625,
+									"height": 188
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFtAKylj7+HFH8=",
+									"_parent": {
+										"$ref": "AAAAAAFtAKylh79/WkI="
+									},
+									"model": {
+										"$ref": "AAAAAAFtAKylg799ejY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 272,
+									"top": 256,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFtAKylj7+Iy9w=",
+									"_parent": {
+										"$ref": "AAAAAAFtAKylh79/WkI="
+									},
+									"model": {
+										"$ref": "AAAAAAFtAKylg799ejY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 272,
+									"top": 256,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 280,
+							"top": 432,
+							"width": 672.4541015625,
+							"height": 289,
+							"nameCompartment": {
+								"$ref": "AAAAAAFtAKyli7+ABYs="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAFtAKyli7+FiaQ="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFtAKyli7+G+lo="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFtAKylj7+HFH8="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFtAKylj7+Iy9w="
+							}
+						},
+						{
+							"_type": "UMLInterfaceView",
+							"_id": "AAAAAAFtAK9JCb+qHYA=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAFtAK9JDb+rNp4=",
+									"_parent": {
+										"$ref": "AAAAAAFtAK9JCb+qHYA="
+									},
+									"model": {
+										"$ref": "AAAAAAFtAK9JCb+o33c="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFtAK9JDb+sorg=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+rNp4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 480,
+											"top": -512,
+											"width": 64.32080078125,
+											"height": 13,
+											"text": "«interface»"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFtAK9JDb+tGtY=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+rNp4="
+											},
+											"font": "Arial;13;1",
+											"left": 277,
+											"top": 119,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "WalletUserService"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFtAK9JDb+uu+4=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+rNp4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 480,
+											"top": -512,
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFtAK9JDb+vrQw=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+rNp4="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"left": 480,
+											"top": -512,
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 272,
+									"top": 112,
+									"width": 672.4541015625,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAFtAK9JDb+sorg="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAFtAK9JDb+tGtY="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAFtAK9JDb+uu+4="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAFtAK9JDb+vrQw="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAFtAK9JDb+w++U=",
+									"_parent": {
+										"$ref": "AAAAAAFtAK9JCb+qHYA="
+									},
+									"model": {
+										"$ref": "AAAAAAFtAK9JCb+o33c="
+									},
+									"font": "Arial;13;0",
+									"left": 272,
+									"top": 137,
+									"width": 672.4541015625,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAFtAK9JDb+x5RM=",
+									"_parent": {
+										"$ref": "AAAAAAFtAK9JCb+qHYA="
+									},
+									"model": {
+										"$ref": "AAAAAAFtAK9JCb+o33c="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtAK+KPr/XU3o=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtAK+KCr/UEk4="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 152,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+addWalletUser(user: WalletUser): WalletUser",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtALGofr/lNPc=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtALGoDr/iIq4="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 167,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+addAmout(userId: Integer, amount: Double): Double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtAMJRgcUomvc=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtAMJRN8UlvVk="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 182,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+transferAmount(fromUserId: Integer, phoneNumber: String, amount: Double): Double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNGVwmsdmxQ=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNGVcmsaJnU="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 197,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+transferAmount(fromUserId: Integer, accountNo: Integer, amount: Double): Double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNHQ/2tEvxc=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNHQ02tBwhU="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 212,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+checkbalance(userId: Integer): Double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNH032thPh0=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNH0kGtevtg="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 227,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+getAllUsers(): List<WalletUser>",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNJj9GuTg7E=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNJjymuQzYc="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 242,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+getUser(userId: Integer): WalletUser",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNJxtmuwZSo=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNJxX2utptM="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 257,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+getAccountsToApprove(): List<WalletAccount>",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNKNf2vI5Wk=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNKNMGvFDzo="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 272,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+approveAccount(accountId: Integer): List<WalletAccount>",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNKsrGvln+Y=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNKsW2viqbE="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 287,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+getAccount(accountNo: Integer): WalletAccount",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNLN/WwCL/k=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNLNq2v/KFo="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 302,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+getTransactions(accountNo: Integer, fromDate: LocalDateTime, toDate: LocalDateTime): List<TransactionHistory>",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFtjNd/CGxMgrc=",
+											"_parent": {
+												"$ref": "AAAAAAFtAK9JDb+x5RM="
+											},
+											"model": {
+												"$ref": "AAAAAAFtjNd+2mxJif8="
+											},
+											"font": "Arial;13;0",
+											"left": 277,
+											"top": 317,
+											"width": 662.4541015625,
+											"height": 13,
+											"text": "+validateLoginCredentials(userId: Integer, password: String): Boolean",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 272,
+									"top": 147,
+									"width": 672.4541015625,
+									"height": 188
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAFtAK9JDb+yE7U=",
+									"_parent": {
+										"$ref": "AAAAAAFtAK9JCb+qHYA="
+									},
+									"model": {
+										"$ref": "AAAAAAFtAK9JCb+o33c="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 240,
+									"top": -256,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAFtAK9JDb+zUMU=",
+									"_parent": {
+										"$ref": "AAAAAAFtAK9JCb+qHYA="
+									},
+									"model": {
+										"$ref": "AAAAAAFtAK9JCb+o33c="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 240,
+									"top": -256,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 272,
+							"top": 48,
+							"width": 672.4541015625,
+							"height": 288,
+							"stereotypeDisplay": "icon",
+							"nameCompartment": {
+								"$ref": "AAAAAAFtAK9JDb+rNp4="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAFtAK9JDb+w++U="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAFtAK9JDb+x5RM="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAFtAK9JDb+yE7U="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAFtAK9JDb+zUMU="
+							}
+						},
+						{
+							"_type": "UMLAssociationView",
+							"_id": "AAAAAAFtANvxsBGxeHY=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAFtANvxpBGtKWY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFtANvxsRGyP7k=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxpBGtKWY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 625,
+									"top": 376,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFtANvxshGz3dw=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxpBGtKWY="
+									},
+									"visible": null,
+									"font": "Arial;13;0",
+									"left": 640,
+									"top": 376,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFtANvxshG0UjE=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxpBGtKWY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 596,
+									"top": 377,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFtANvxsxG1NnY=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxpRGu8qY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 625,
+									"top": 355,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFtANvxsxG2rH4=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxpRGu8qY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 638,
+									"top": 357,
+									"height": 13,
+									"alpha": 0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFtANvxsxG3m2A=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxpRGu8qY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 597,
+									"top": 351,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"edgePosition": 2
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFtANvxsxG4Olc=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxphGvm34="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 626,
+									"top": 398,
+									"height": 13,
+									"alpha": -0.5235987755982988,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFtANvxtBG5YTc=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxphGvm34="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 639,
+									"top": 396,
+									"height": 13,
+									"alpha": -0.7853981633974483,
+									"distance": 40,
+									"hostEdge": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									}
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAFtANvxtBG6egs=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxphGvm34="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 599,
+									"top": 403,
+									"height": 13,
+									"alpha": 0.5235987755982988,
+									"distance": 25,
+									"hostEdge": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									}
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAFtANvxtBG7y6M=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxpRGu8qY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLQualifierCompartmentView",
+									"_id": "AAAAAAFtANvxtRG8Huo=",
+									"_parent": {
+										"$ref": "AAAAAAFtANvxsBGxeHY="
+									},
+									"model": {
+										"$ref": "AAAAAAFtANvxphGvm34="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAFtAKylh79/WkI="
+							},
+							"tail": {
+								"$ref": "AAAAAAFtAK9JCb+qHYA="
+							},
+							"lineStyle": 1,
+							"points": "610:336;612:431",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAFtANvxsRGyP7k="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAFtANvxshGz3dw="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAFtANvxshG0UjE="
+							},
+							"tailRoleNameLabel": {
+								"$ref": "AAAAAAFtANvxsxG1NnY="
+							},
+							"tailPropertyLabel": {
+								"$ref": "AAAAAAFtANvxsxG2rH4="
+							},
+							"tailMultiplicityLabel": {
+								"$ref": "AAAAAAFtANvxsxG3m2A="
+							},
+							"headRoleNameLabel": {
+								"$ref": "AAAAAAFtANvxsxG4Olc="
+							},
+							"headPropertyLabel": {
+								"$ref": "AAAAAAFtANvxtBG5YTc="
+							},
+							"headMultiplicityLabel": {
+								"$ref": "AAAAAAFtANvxtBG6egs="
+							},
+							"tailQualifiersCompartment": {
+								"$ref": "AAAAAAFtANvxtBG7y6M="
+							},
+							"headQualifiersCompartment": {
+								"$ref": "AAAAAAFtANvxtRG8Huo="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFtAKylg799ejY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "WalletUserServiceImpl",
+					"ownedElements": [
+						{
+							"_type": "UMLInterface",
+							"_id": "AAAAAAFtALLK/sGyD3Q=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "Interface1"
+						},
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAFtALdA4sMVRMM=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAFtALndTsQM03E=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAFtALp/tcQ+9pQ=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAFtAMCIYMTO0N0=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAFtAMCPNMTf6dc=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAFtAMz35fuMNCU=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtALiSJsOWOCA=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "addWalletUser",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtALiYjMOdP8M=",
+									"_parent": {
+										"$ref": "AAAAAAFtALiSJsOWOCA="
+									},
+									"name": "user",
+									"type": "WalletUser"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtALiYjcOeQNs=",
+									"_parent": {
+										"$ref": "AAAAAAFtALiSJsOWOCA="
+									},
+									"type": "WalletUser",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtALjKZsOhDhI=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "addAmout",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtALjSpMOon3E=",
+									"_parent": {
+										"$ref": "AAAAAAFtALjKZsOhDhI="
+									},
+									"name": "userId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtALjSpMOpOmo=",
+									"_parent": {
+										"$ref": "AAAAAAFtALjKZsOhDhI="
+									},
+									"type": "Double",
+									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNjPM2yXanU=",
+									"_parent": {
+										"$ref": "AAAAAAFtALjKZsOhDhI="
+									},
+									"name": "amount",
+									"type": "Double"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAMOAiMUzEKw=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "transferAmount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMOGB8U6lyU=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMOAiMUzEKw="
+									},
+									"name": "fromUserId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMOGCMU7OUw=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMOAiMUzEKw="
+									},
+									"type": "Double",
+									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNjoNWyvaug=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMOAiMUzEKw="
+									},
+									"name": "phoneNumber",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNjoNWyww4Q=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMOAiMUzEKw="
+									},
+									"name": "amount",
+									"type": "Double"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNjo1my8GZQ=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "transferAmount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNkLbmzb8jE=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNjo1my8GZQ="
+									},
+									"name": "fromUserId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNkLbmzcIdM=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNjo1my8GZQ="
+									},
+									"name": "accountNo",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNkLbmzdTMk=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNjo1my8GZQ="
+									},
+									"name": "amount",
+									"type": "Double"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNkLbmzehSg=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNjo1my8GZQ="
+									},
+									"type": "Double",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNlH5m0a1ic=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "checkbalance",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNlVEW0qVNg=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNlH5m0a1ic="
+									},
+									"name": "userId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNlVEm0r5Co=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNlH5m0a1ic="
+									},
+									"type": "Double",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNlVwW03Pcc=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "getAllUsers",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNl4f21TV2Q=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNlVwW03Pcc="
+									},
+									"type": "List<WalletUser>",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNl5C21bI4Y=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "getUser",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNmjam13nHw=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNl5C21bI4Y="
+									},
+									"name": "userId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNmjbG14/a8=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNl5C21bI4Y="
+									},
+									"type": "WalletUser",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNmkMW2Eid8=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "getAccountsToApprove",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNn5ZW2g0Sc=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNmkMW2Eid8="
+									},
+									"type": "List<WalletAccount>",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNn5322oax0=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "approveAccount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNoa7m3EZT0=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNn5322oax0="
+									},
+									"name": "accountId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNoa7m3FlLc=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNn5322oax0="
+									},
+									"type": "List<WalletAccount>",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNobs23R6d4=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "getAccount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNo/6m3wK2Q=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNobs23R6d4="
+									},
+									"name": "accountNo",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNo/6m3xm18=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNobs23R6d4="
+									},
+									"type": "WalletAccount",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNpVX24SaYI=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "getTransactions",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNpjHG4iWtM=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNpVX24SaYI="
+									},
+									"name": "accountNo",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNpjHW4jPSk=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNpVX24SaYI="
+									},
+									"name": "fromDate",
+									"type": "LocalDateTime"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNpjHW4kjz4=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNpVX24SaYI="
+									},
+									"name": "toDate",
+									"type": "LocalDateTime"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNpjHW4lBlE=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNpVX24SaYI="
+									},
+									"type": "List<TransactionHistory>",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNpkRm45ifs=",
+							"_parent": {
+								"$ref": "AAAAAAFtAKylg799ejY="
+							},
+							"name": "validateLoginCredentials",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNqYP25e5OE=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNpkRm45ifs="
+									},
+									"name": "userId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNqYP25f1UA=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNpkRm45ifs="
+									},
+									"name": "password",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNqYQG5goYE=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNpkRm45ifs="
+									},
+									"type": "Boolean",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtAK9JCb+o33c=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "WalletUserService",
+					"ownedElements": [
+						{
+							"_type": "UMLInterface",
+							"_id": "AAAAAAFtALJCHr/t5kg=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "Interface1"
+						},
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAFtALbwZcL64cg=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAFtALdBqMMmuR8=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						},
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAFtALneEcQdcqk=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAFtAMCQTcTw6o0=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						},
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFtANvxpBGtKWY=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFtANvxpRGu8qY=",
+								"_parent": {
+									"$ref": "AAAAAAFtANvxpBGtKWY="
+								},
+								"reference": {
+									"$ref": "AAAAAAFtAK9JCb+o33c="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFtANvxphGvm34=",
+								"_parent": {
+									"$ref": "AAAAAAFtANvxpBGtKWY="
+								},
+								"reference": {
+									"$ref": "AAAAAAFtAKylg799ejY="
+								}
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAK+KCr/UEk4=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "addWalletUser",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtALFjYr/dRuw=",
+									"_parent": {
+										"$ref": "AAAAAAFtAK+KCr/UEk4="
+									},
+									"type": "WalletUser",
+									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtALGnMr/g2ag=",
+									"_parent": {
+										"$ref": "AAAAAAFtAK+KCr/UEk4="
+									},
+									"name": "user",
+									"type": "WalletUser"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtALGoDr/iIq4=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "addAmout",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtALHw5L/pcfU=",
+									"_parent": {
+										"$ref": "AAAAAAFtALGoDr/iIq4="
+									},
+									"name": "userId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtALHw5L/qnDM=",
+									"_parent": {
+										"$ref": "AAAAAAFtALGoDr/iIq4="
+									},
+									"type": "Double",
+									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNF3Cmr+bX8=",
+									"_parent": {
+										"$ref": "AAAAAAFtALGoDr/iIq4="
+									},
+									"name": "amount",
+									"type": "Double"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAMJRN8UlvVk=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "transferAmount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMNmxMUvCcA=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMJRN8UlvVk="
+									},
+									"name": "fromUserId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMNmxMUw6SY=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMJRN8UlvVk="
+									},
+									"type": "Double",
+									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNGUy2sNy9s=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMJRN8UlvVk="
+									},
+									"name": "phoneNumber",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNGUzGsOxLo=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMJRN8UlvVk="
+									},
+									"name": "amount",
+									"type": "Double"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNGVcmsaJnU=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "transferAmount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNG6EmsqkUs=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNGVcmsaJnU="
+									},
+									"name": "fromUserId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNG6Emsr4Vk=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNGVcmsaJnU="
+									},
+									"name": "accountNo",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNG6E2ssulc=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNGVcmsaJnU="
+									},
+									"name": "amount",
+									"type": "Double"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNG6E2stEE8=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNGVcmsaJnU="
+									},
+									"type": "Double",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNHQ02tBwhU=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "checkbalance",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNHz6GtRrRA=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNHQ02tBwhU="
+									},
+									"name": "userId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNHz6GtSB/k=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNHQ02tBwhU="
+									},
+									"type": "Double",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNH0kGtevtg=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "getAllUsers",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNJFo2uIosM=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNH0kGtevtg="
+									},
+									"type": "List<WalletUser>",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNJjymuQzYc=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "getUser",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNJwrWugsOI=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNJjymuQzYc="
+									},
+									"name": "userId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNJwrmuhOkg=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNJjymuQzYc="
+									},
+									"type": "WalletUser",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNJxX2utptM=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "getAccountsToApprove",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNKMrmu9bU4=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNJxX2utptM="
+									},
+									"type": "List<WalletAccount>",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNKNMGvFDzo=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "approveAccount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNKrs2vVqOQ=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNKNMGvFDzo="
+									},
+									"name": "accountId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNKrs2vWpLo=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNKNMGvFDzo="
+									},
+									"type": "List<WalletAccount>",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNKsW2viqbE=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "getAccount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNLNDWvytmI=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNKsW2viqbE="
+									},
+									"name": "accountNo",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNLNDWvzq6M=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNKsW2viqbE="
+									},
+									"type": "WalletAccount",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNLNq2v/KFo=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "getTransactions",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNLq0mwPy40=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNLNq2v/KFo="
+									},
+									"name": "accountNo",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNLq0mwQfok=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNLNq2v/KFo="
+									},
+									"name": "fromDate",
+									"type": "LocalDateTime"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNLq02wRvSM=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNLNq2v/KFo="
+									},
+									"name": "toDate",
+									"type": "LocalDateTime"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNLq02wSQYA=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNLNq2v/KFo="
+									},
+									"type": "List<TransactionHistory>",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtjNd+2mxJif8=",
+							"_parent": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							},
+							"name": "validateLoginCredentials",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNidXWxcgIY=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNd+2mxJif8="
+									},
+									"name": "userId",
+									"type": "Integer"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNidXmxd/to=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNd+2mxJif8="
+									},
+									"name": "password",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtjNidXmxeMSo=",
+									"_parent": {
+										"$ref": "AAAAAAFtjNd+2mxJif8="
+									},
+									"type": "Boolean",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtALJ58b/xNL4=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Interface1"
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtALKA4cAa6g4=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Interface2"
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtALKCpcBDqlI=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Interface3"
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtALKMwsBshn0=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Interface4"
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtALKPSsCVwnI=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Interface5"
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtALKVccC+jiA=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Interface6"
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtALKaPMDn1Cg=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Interface7"
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFtALel3cNAcEg=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "AccountServiceImpl",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAL2iL8SNjSk=",
+							"_parent": {
+								"$ref": "AAAAAAFtALel3cNAcEg="
+							},
+							"name": "addBankAccount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAL2vPcSUJc8=",
+									"_parent": {
+										"$ref": "AAAAAAFtAL2iL8SNjSk="
+									},
+									"name": "Account acc",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAL2vPsSV7Qo=",
+									"_parent": {
+										"$ref": "AAAAAAFtAL2iL8SNjSk="
+									},
+									"type": "Account",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAL6C4MSes4o=",
+							"_parent": {
+								"$ref": "AAAAAAFtALel3cNAcEg="
+							},
+							"name": "deleteBankAccount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAL6I3sSl/3Q=",
+									"_parent": {
+										"$ref": "AAAAAAFtAL6C4MSes4o="
+									},
+									"name": "Account acc",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAL6I3sSm52Q=",
+									"_parent": {
+										"$ref": "AAAAAAFtAL6C4MSes4o="
+									},
+									"type": "Boolean",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAMUGwMVGZ9c=",
+							"_parent": {
+								"$ref": "AAAAAAFtALel3cNAcEg="
+							},
+							"name": "showBankAccount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMXh5MVNK1g=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMUGwMVGZ9c="
+									},
+									"name": "id",
+									"type": "BigInteger"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMXh5cVOTGA=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMUGwMVGZ9c="
+									},
+									"name": "password",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMXh5cVPGOA=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMUGwMVGZ9c="
+									},
+									"type": "Account",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFtALgkpcNqAhU=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "TransactionServiceImpl",
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAMeLJcVtqnw=",
+							"_parent": {
+								"$ref": "AAAAAAFtALgkpcNqAhU="
+							},
+							"name": "addTransaction",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMeQncV08vQ=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMeLJcVtqnw="
+									},
+									"name": "Transaction t",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMeQncV1pQM=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMeLJcVtqnw="
+									},
+									"type": "Transaction",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAMgR8cWDc58=",
+							"_parent": {
+								"$ref": "AAAAAAFtALgkpcNqAhU="
+							},
+							"name": "showTransaction",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMgVxcWKYLk=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMgR8cWDc58="
+									},
+									"name": "tid",
+									"type": "BigInteger"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMgVxsWLbp0=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMgR8cWDc58="
+									},
+									"type": "Transaction",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtALjtt8OsYTM=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "AccountService",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFtANwLLxHwzE8=",
+							"_parent": {
+								"$ref": "AAAAAAFtALjtt8OsYTM="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFtANwLLxHxX74=",
+								"_parent": {
+									"$ref": "AAAAAAFtANwLLxHwzE8="
+								},
+								"reference": {
+									"$ref": "AAAAAAFtALjtt8OsYTM="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFtANwLLxHyfp0=",
+								"_parent": {
+									"$ref": "AAAAAAFtANwLLxHwzE8="
+								},
+								"reference": {
+									"$ref": "AAAAAAFtALel3cNAcEg="
+								}
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtALvY+8RioYU=",
+							"_parent": {
+								"$ref": "AAAAAAFtALjtt8OsYTM="
+							},
+							"name": "addBankAccount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtALxH7MRpBUA=",
+									"_parent": {
+										"$ref": "AAAAAAFtALvY+8RioYU="
+									},
+									"name": "Account acc",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtALxH7MRqygE=",
+									"_parent": {
+										"$ref": "AAAAAAFtALvY+8RioYU="
+									},
+									"type": "Account",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtALxI68Rtr0Q=",
+							"_parent": {
+								"$ref": "AAAAAAFtALjtt8OsYTM="
+							},
+							"name": "Account deleteBankAccount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAL5jAsSZd4E=",
+									"_parent": {
+										"$ref": "AAAAAAFtALxI68Rtr0Q="
+									},
+									"name": "Account acc",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAL5jAsSaYaU=",
+									"_parent": {
+										"$ref": "AAAAAAFtALxI68Rtr0Q="
+									},
+									"type": "Boolean",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAMYg2cVUet0=",
+							"_parent": {
+								"$ref": "AAAAAAFtALjtt8OsYTM="
+							},
+							"name": "showBankAccount",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMYr6cVb6VE=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMYg2cVUet0="
+									},
+									"name": "id",
+									"type": "BigInteger"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMYr6sVcIAQ=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMYg2cVUet0="
+									},
+									"name": "password",
+									"type": "String"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMYr6sVdIS4=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMYg2cVUet0="
+									},
+									"type": "Account",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtALkPLsPYRtg=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "TransactionService",
+					"ownedElements": [
+						{
+							"_type": "UMLAssociation",
+							"_id": "AAAAAAFtANxStxJ+gXM=",
+							"_parent": {
+								"$ref": "AAAAAAFtALkPLsPYRtg="
+							},
+							"end1": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFtANxSxBJ//lc=",
+								"_parent": {
+									"$ref": "AAAAAAFtANxStxJ+gXM="
+								},
+								"reference": {
+									"$ref": "AAAAAAFtALkPLsPYRtg="
+								}
+							},
+							"end2": {
+								"_type": "UMLAssociationEnd",
+								"_id": "AAAAAAFtANxSxBKAXs0=",
+								"_parent": {
+									"$ref": "AAAAAAFtANxStxJ+gXM="
+								},
+								"reference": {
+									"$ref": "AAAAAAFtALgkpcNqAhU="
+								}
+							}
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAMFWgcUdtH4=",
+							"_parent": {
+								"$ref": "AAAAAAFtALkPLsPYRtg="
+							},
+							"name": "addTransaction",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMeBrcVpUhs=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMFWgcUdtH4="
+									},
+									"name": "Transaction t",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMeBrcVqq0E=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMFWgcUdtH4="
+									},
+									"type": "Transaction",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFtAMenOcV4ZtI=",
+							"_parent": {
+								"$ref": "AAAAAAFtALkPLsPYRtg="
+							},
+							"name": "showTransaction",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMf/P8V/Cs0=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMenOcV4ZtI="
+									},
+									"name": "tid",
+									"type": "BigInteger"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFtAMf/P8WAA1s=",
+									"_parent": {
+										"$ref": "AAAAAAFtAMenOcV4ZtI="
+									},
+									"type": "Transaction",
+									"direction": "return"
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLInterface",
+					"_id": "AAAAAAFtAM1YafuoP9k=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Interface8",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAFtAM1Y//vRICo=",
+							"_parent": {
+								"$ref": "AAAAAAFtAM1YafuoP9k="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAM1YafuoP9k="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFtANCdB/xe+7U=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Class1",
+					"ownedElements": [
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAFtANCdwvyHRR4=",
+							"_parent": {
+								"$ref": "AAAAAAFtANCdB/xe+7U="
+							},
+							"source": {
+								"$ref": "AAAAAAFtANCdB/xe+7U="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFtANCebfyYbcs=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Class2",
+					"ownedElements": [
+						{
+							"_type": "UMLInterfaceRealization",
+							"_id": "AAAAAAFtANCfZvzBWZ8=",
+							"_parent": {
+								"$ref": "AAAAAAFtANCebfyYbcs="
+							},
+							"source": {
+								"$ref": "AAAAAAFtANCebfyYbcs="
+							},
+							"target": {
+								"$ref": "AAAAAAFtAK9JCb+o33c="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFtAND9mPza6+M=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Class3",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAFtAND+aP0DrUw=",
+							"_parent": {
+								"$ref": "AAAAAAFtAND9mPza6+M="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAND9mPza6+M="
+							},
+							"target": {
+								"$ref": "AAAAAAFtANCebfyYbcs="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAFtAND/EP0U66g=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Class4",
+					"ownedElements": [
+						{
+							"_type": "UMLGeneralization",
+							"_id": "AAAAAAFtAND/3v09ynE=",
+							"_parent": {
+								"$ref": "AAAAAAFtAND/EP0U66g="
+							},
+							"source": {
+								"$ref": "AAAAAAFtAND/EP0U66g="
+							},
+							"target": {
+								"$ref": "AAAAAAFtANCebfyYbcs="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
