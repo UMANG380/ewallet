@@ -551,7 +551,7 @@
 											"top": 167,
 											"width": 662.4541015625,
 											"height": 13,
-											"text": "+addAmout(userId: Integer, amount: Double): Double",
+											"text": "+addAmount(userId: Integer, amount: Double): Double",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1677,7 +1677,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFtAK9JCb+o33c="
 							},
-							"name": "addAmout",
+							"name": "addAmount",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
